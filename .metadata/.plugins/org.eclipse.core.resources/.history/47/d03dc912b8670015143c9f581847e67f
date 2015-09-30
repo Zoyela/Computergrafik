@@ -1,0 +1,10 @@
+package simple;
+
+import jrtr.RenderContext;
+
+public class Cubes {
+	public RenderContext renderContext;
+
+	public Cubes() {
+	}
+}

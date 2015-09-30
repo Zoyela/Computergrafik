@@ -7,14 +7,14 @@ import jrtr.VertexData;
 
 
 public class Cube {
-	
 	private RenderContext renderContext;
+
 	
 	public void setRenderContext(RenderContext r) {
 		this.renderContext = r;
 	}
 	
-	public VertexData makeCube() {
+	public static VertexData makeCube() {
 		// Make a simple geometric object: a cube
 
 		// The vertex positions of the cube
@@ -51,7 +51,7 @@ public class Cube {
 
 		// Construct a data structure that stores the vertices, their
 		// attributes, and the triangle mesh connectivity
-		VertexData vertexData = renderContext.makeVertexData(24);
+		VertexData vertexData = simple.renderContext.makeVertexData(24);
 		vertexData.addElement(c, VertexData.Semantic.COLOR, 3);
 		vertexData.addElement(v, VertexData.Semantic.POSITION, 3);
 		vertexData.addElement(n, VertexData.Semantic.NORMAL, 3);
@@ -70,16 +70,7 @@ public class Cube {
 		return vertexData;
 		
 	}
-	
-	public static float[] concatFloat(float[] first, float[] second) {
-		float[] result = Arrays.copyOf(first, first.length + second.length);
-		System.arraycopy(second, 0, result, first.length, second.length);
-		return result;
-	}
 
-	public static int[] concatInt(int[] first, int[] second) {
-		int[] result = Arrays.copyOf(first, first.length + second.length);
-		System.arraycopy(second, 0, result, first.length, second.length);
-		return result;
-	}
+
+	
 }

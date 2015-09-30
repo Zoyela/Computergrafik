@@ -1,0 +1,15 @@
+package simple;
+
+import java.util.Arrays;
+
+import jrtr.RenderContext;
+import jrtr.VertexData;
+
+
+public class Cube {
+
+	private RenderContext renderContext;
+	
+
+	
+}
