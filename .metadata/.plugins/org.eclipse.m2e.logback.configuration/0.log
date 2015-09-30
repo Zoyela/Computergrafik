@@ -1,0 +1,19 @@
+2015-09-30 22:56:15,135 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cgg.unibe.ch:jrtr:0.0.1-SNAPSHOT @ E:\Users\Tanja\Computergraphik\Computergrafik\jrtr\pom.xml.
+2015-09-30 22:56:15,279 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cgg.unibe.ch:simple:0.0.1-SNAPSHOT @ E:\Users\Tanja\Computergraphik\Computergrafik\simple\pom.xml.
+2015-09-30 22:56:15,668 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jrtr/src/main/java
+2015-09-30 22:56:15,668 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jrtr/src/main/resources
+2015-09-30 22:56:15,669 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jrtr/src/test/java
+2015-09-30 22:56:15,669 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /jrtr/src/test/resources
+2015-09-30 22:56:15,758 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/main/java
+2015-09-30 22:56:15,758 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /simple/src/main/resources
+2015-09-30 22:56:15,758 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simple/src/test/java
+2015-09-30 22:56:15,759 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /simple/src/test/resources
+2015-09-30 22:56:15,807 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 1 sec
+2015-09-30 22:56:16,893 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-30 22:56:16,901 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-30 22:56:16,909 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-30 22:56:16,913 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-30 22:56:17,093 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-30 22:56:17,097 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-09-30 22:56:17,100 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-09-30 22:56:17,104 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
