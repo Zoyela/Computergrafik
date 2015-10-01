@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="jrtr.RenderPanel"/>
+<fullyQualifiedTypeName name="jrtr.Shader"/>
+<fullyQualifiedTypeName name="jrtr.Material"/>
+<fullyQualifiedTypeName name="jrtr.SimpleSceneManager"/>
+<fullyQualifiedTypeName name="java.awt.Shape"/>
+<fullyQualifiedTypeName name="simple.simple_cylinder.Cylinder"/>
+<fullyQualifiedTypeName name="jrtr.glrenderer.GLRenderPanel"/>
+</qualifiedTypeNameHistroy>

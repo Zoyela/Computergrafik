@@ -7,12 +7,7 @@ import jrtr.VertexData;
 
 
 public class Cube {
-	private RenderContext renderContext;
 
-	
-	public void setRenderContext(RenderContext r) {
-		this.renderContext = r;
-	}
 	
 	public static VertexData makeCube() {
 		// Make a simple geometric object: a cube

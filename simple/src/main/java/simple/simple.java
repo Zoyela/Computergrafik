@@ -11,7 +11,8 @@ import javax.vecmath.*;
 
 /**
  * Implements a simple application that opens a 3D rendering window and 
- * shows a rotating cube.
+ * shows a rotating shape.
+ * Need to enter shape plus segments o 
  */
 public class simple{	
 	static RenderPanel renderPanel;
@@ -24,6 +25,7 @@ public class simple{
 	static float currentstep, basicstep;
 	static VertexData vertexData;
 	static String whatShape;
+	public static int howManySegments;
 	
 
 	/**
@@ -41,7 +43,10 @@ public class simple{
 		public void init(RenderContext r)
 		{
 			simple.renderContext = r;
+//			simple.vertexData = Cylinder.createCylinder(6);
+
 			simple.vertexData = make(simple.whatShape);
+			
 			
 								
 			// Make a scene manager and add the object
@@ -191,12 +196,10 @@ public class simple{
 			simple.renderPanel.getCanvas().repaint();
 		}
 		
-		public void keyReleased(KeyEvent e)
-		{
+		public void keyReleased(KeyEvent e){
 		}
 
-		public void keyTyped(KeyEvent e)
-        {
+		public void keyTyped(KeyEvent e){
         }
 
 	}
@@ -211,6 +214,11 @@ public class simple{
 		// Make a render panel. The init function of the renderPanel
 		// (see above) will be called back for initialization.
 		simple.renderPanel = new SimpleRenderPanel();
+		if (args.length == 0){
+			System.out.println("Please enter a Shape, eg. cube or cylinder 20 (for 20 segments)");
+			return;
+		}
+		if (args.length == 2) simple.howManySegments = Integer.parseInt(args[1]);
 		simple.whatShape = args[0];
 	
 		// Make the main window of this application and add the renderer to it
@@ -228,17 +236,16 @@ public class simple{
 	    jframe.setVisible(true); // show window
 	}
 
-	private VertexData make(String string) {
-		
-		
-		String theShape = string;
+	//decide wich shape to return, depending on input, default is cube
+	private VertexData make(String s) {	
 	
-		switch(theShape){
+		switch(s){
 			case "cube": return Cube.makeCube();
-			case "cylinder": return Cylinder.makeCylinder();
+			case "cylinder": return Cylinder.createCylinder(howManySegments);
+			default: return Cube.makeCube();
 		}
-		
-		return null;
+	
+
 	}
 
 
