@@ -236,12 +236,14 @@ public class simple{
 	    jframe.setVisible(true); // show window
 	}
 
-	//decide wich shape to return, depending on input, default is cube
+	//decide which shape to return, depending on input, default is cube
 	private VertexData make(String s) {	
 	
 		switch(s){
 			case "cube": return Cube.makeCube();
 			case "cylinder": return Cylinder.createCylinder(howManySegments);
+			//TODO to be changed to use with command line input
+			case "torus": return Torus.createTorus(60, 2, 1, 0, 1, 0, 0); 
 			default: return Cube.makeCube();
 		}
 	
